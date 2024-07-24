@@ -1,0 +1,8 @@
+//Set the virtual environment on Terminal (if you don't have one):
+
+First set the execution policy:                   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Install the venv:                                 python -m venv venv
+If it doesn't work:                               python -m venv venv --without-pip
+Then generate the venv:                           venv\Scripts\activate
+Install the requirements:                         pip install -r requirements.txt
+Run the app to display the streamlit front-end:   streamlit run app.py
